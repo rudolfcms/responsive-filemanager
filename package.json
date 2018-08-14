@@ -1,6 +1,6 @@
 {
   "name": "rudolf-responsive-filemanager",
-  "version": "9.13.4",
+  "version": "1.0.0",
   "license": "MIT",
   "dependencies": {
     "responsive-filemanager": "trippo/ResponsiveFilemanager#9.13.4"
