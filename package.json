@@ -2,13 +2,14 @@
   "name": "rudolf-responsive-filemanager",
   "version": "1.0.0",
   "license": "MIT",
+  "private": true,
   "dependencies": {
     "responsive-filemanager": "trippo/ResponsiveFilemanager#9.13.4"
   },
   "scripts": {
     "preinstall": "rm -rf ./build",
-    "postinstall": "cp -r ./node_modules/responsive-filemanager/ ./build",
-    "build": "cd ./build && yarn && yarn dist && cd ../ && rm -rf ./dist && mkdir ./dist && cp -r ./build/filemanager ./build/tinymce ./dist/ && mkdir ./dist/thumbs && cp -r ./src/* ./dist/",
+    "postinstall": "cp -r ./node_modules/responsive-filemanager/ ./build && cd ./build && yarn",
+    "build": "cd ./build yarn dist && cd ../ && rm -rf ./dist && mkdir ./dist && cp -r ./build/filemanager ./build/tinymce ./dist/ && mkdir ./dist/thumbs && cp -r ./src/* ./dist/",
     "start": "cd ./dist && php -S localhost:8080"
   }
 }
