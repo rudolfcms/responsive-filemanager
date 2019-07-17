@@ -5,10 +5,12 @@
 blueimp-canvas-to-blob@3.5.0:
   version "3.5.0"
   resolved "https://registry.yarnpkg.com/blueimp-canvas-to-blob/-/blueimp-canvas-to-blob-3.5.0.tgz#5679ac32f6a2835821f0c3ad661719ff85a9236b"
+  integrity sha1-VnmsMvaig1gh8MOtZhcZ/4WpI2s=
 
 blueimp-file-upload@^9.22.0:
   version "9.32.0"
   resolved "https://registry.yarnpkg.com/blueimp-file-upload/-/blueimp-file-upload-9.32.0.tgz#c53e1d3ccec8b770639b514ead93ed684982703f"
+  integrity sha512-GS68kE4ybcYU7qlsvU8lXygLnebsoRhx68yUyg6n+54TpZDcCK2L7Ra1YS9IYG/t3nQoxS8v2uIuno+YRAfDmw==
   optionalDependencies:
     blueimp-canvas-to-blob "3.5.0"
     blueimp-load-image "2.12.2"
@@ -17,10 +19,12 @@ blueimp-file-upload@^9.22.0:
 blueimp-load-image@2.12.2:
   version "2.12.2"
   resolved "https://registry.yarnpkg.com/blueimp-load-image/-/blueimp-load-image-2.12.2.tgz#6a17598aab858d4fbf01543e0631141b51057c87"
+  integrity sha1-ahdZiquFjU+/AVQ+BjEUG1EFfIc=
 
 blueimp-tmpl@3.6.0:
   version "3.6.0"
   resolved "https://registry.yarnpkg.com/blueimp-tmpl/-/blueimp-tmpl-3.6.0.tgz#a4910975d042e2bc03ba77f0e62d04f1548a524c"
+  integrity sha1-pJEJddBC4rwDunfw5i0E8VSKUkw=
 
 "bootbox.js@github:makeusabrew/bootbox#v3.3.0":
   version "3.3.0"
@@ -41,6 +45,7 @@ blueimp-tmpl@3.6.0:
 clipboard@^1.7.1:
   version "1.7.1"
   resolved "https://registry.yarnpkg.com/clipboard/-/clipboard-1.7.1.tgz#360d6d6946e99a7a1fef395e42ba92b5e9b5a16b"
+  integrity sha1-Ng1taUbpmnof7zleQrqStem1oWs=
   dependencies:
     good-listener "^1.2.2"
     select "^1.1.2"
@@ -49,46 +54,56 @@ clipboard@^1.7.1:
 delegate@^3.1.2:
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/delegate/-/delegate-3.2.0.tgz#b66b71c3158522e8ab5744f720d8ca0c2af59166"
+  integrity sha512-IofjkYBZaZivn0V8nnsMJGBr4jVLxHDheKSW88PyxS5QC4Vo9ZbZVvhzlSxY87fVq3STR6r+4cGepyHkcWOQSw==
 
 good-listener@^1.2.2:
   version "1.2.2"
   resolved "https://registry.yarnpkg.com/good-listener/-/good-listener-1.2.2.tgz#d53b30cdf9313dffb7dc9a0d477096aa6d145c50"
+  integrity sha1-1TswzfkxPf+33JoNR3CWqm0UXFA=
   dependencies:
     delegate "^3.1.2"
 
 html5shiv@^3.7.3:
   version "3.7.3"
   resolved "https://registry.yarnpkg.com/html5shiv/-/html5shiv-3.7.3.tgz#d78a84a367bcb9a710100d57802c387b084631d2"
+  integrity sha1-14qEo2e8uacQEA1XgCw4ewhGMdI=
 
 jquery-contextmenu@^1.6.6:
   version "1.11.0"
   resolved "https://registry.yarnpkg.com/jquery-contextmenu/-/jquery-contextmenu-1.11.0.tgz#c94b844cdb4df0babbbbff17d678a35f9688146c"
+  integrity sha1-yUuETNtN8Lq7u/8X1nijX5aIFGw=
 
 jquery-scrollstop@^1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/jquery-scrollstop/-/jquery-scrollstop-1.2.0.tgz#f1827a25cf12887d965c085d8a75035655b37663"
+  integrity sha1-8YJ6Jc8SiH2WXAhdinUDVlWzdmM=
   dependencies:
     jquery ">=1.2.3"
 
 jquery-touchswipe@^1.6.18:
-  version "1.6.18"
-  resolved "https://registry.yarnpkg.com/jquery-touchswipe/-/jquery-touchswipe-1.6.18.tgz#fd65a09611edc3fece8ef480ae48569d42f984e2"
+  version "1.6.19"
+  resolved "https://registry.yarnpkg.com/jquery-touchswipe/-/jquery-touchswipe-1.6.19.tgz#dfd5ddaec0b78212dd500d29707129b9c7fd6cd4"
+  integrity sha512-b0BGje9reNRU3u6ksAK9QqnX7yBRgLNe/wYG7DOfyDlhBlYjayIT8bSOHmcuvptIDW/ubM9CTW/mnZf9Rohuow==
 
 jquery-ui-touch-punch@^0.2.3:
   version "0.2.3"
   resolved "https://registry.yarnpkg.com/jquery-ui-touch-punch/-/jquery-ui-touch-punch-0.2.3.tgz#eed82242733ba243f46b3e87c1841b308191da68"
+  integrity sha1-7tgiQnM7okP0az6HwYQbMIGR2mg=
 
 jquery-ui@^1.10.5:
   version "1.12.1"
   resolved "https://registry.yarnpkg.com/jquery-ui/-/jquery-ui-1.12.1.tgz#bcb4045c8dd0539c134bc1488cdd3e768a7a9e51"
+  integrity sha1-vLQEXI3QU5wTS8FIjN0+dop6nlE=
 
 jquery@>=1.2.3:
-  version "3.3.1"
-  resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.3.1.tgz#958ce29e81c9790f31be7792df5d4d95fc57fbca"
+  version "3.4.1"
+  resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.4.1.tgz#714f1f8d9dde4bdfa55764ba37ef214630d80ef2"
+  integrity sha512-36+AdBzCL+y6qjw5Tx7HgzeGCzC81MDDgaUP8ld2zhx58HdqXGoBd+tHdrBMiyjGQs0Hxs/MLZTu/eHNJJuWPw==
 
 jquery@^1.9.1:
   version "1.12.4"
   resolved "https://registry.yarnpkg.com/jquery/-/jquery-1.12.4.tgz#01e1dfba290fe73deba77ceeacb0f9ba2fec9e0c"
+  integrity sha1-AeHfuikP5z3rp3zurLD5ui/sngw=
 
 responsive-filemanager@trippo/ResponsiveFilemanager#9.13.4:
   version "9.13.3"
@@ -112,11 +127,14 @@ responsive-filemanager@trippo/ResponsiveFilemanager#9.13.4:
 select@^1.1.2:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/select/-/select-1.1.2.tgz#0e7350acdec80b1108528786ec1d4418d11b396d"
+  integrity sha1-DnNQrN7ICxEIUoeG7B1EGNEbOW0=
 
 tiny-emitter@^2.0.0:
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/tiny-emitter/-/tiny-emitter-2.0.2.tgz#82d27468aca5ade8e5fd1e6d22b57dd43ebdfb7c"
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/tiny-emitter/-/tiny-emitter-2.1.0.tgz#1d1a56edfc51c43e863cbb5382a72330e3555423"
+  integrity sha512-NB6Dk1A9xgQPMoGqC5CVXn123gWyte215ONT5Pp5a0yt4nlEoO1ZWeCwpncaekPHXO60i47ihFnZPiRPjRMq4Q==
 
 vanilla-lazyload@^10.14.0:
-  version "10.15.0"
-  resolved "https://registry.yarnpkg.com/vanilla-lazyload/-/vanilla-lazyload-10.15.0.tgz#5e6cf428bd7b1f5ebd47315d01698d07446de55b"
+  version "10.20.1"
+  resolved "https://registry.yarnpkg.com/vanilla-lazyload/-/vanilla-lazyload-10.20.1.tgz#1f92607e04c8d37ef665f6f8bc866b55f434ece6"
+  integrity sha512-Vni6A8PqyDfK3zlAKeebdXAel2OrTa2b0ex+shO8SKsY/QIlqS0JKhXIgBgtDiIHDe53Fx5IcA6yYpyGbzEkIg==
